@@ -1,0 +1,26 @@
+ import java.util.Scanner;
+
+public class FlightChange {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String currentFlightNumber, newFlightNumber, departureDate;
+
+        // Get the current flight number from the user
+        System.out.print("Enter your current flight number: ");
+        currentFlightNumber = scanner.nextLine();
+
+        // Get the new flight number from the user
+        System.out.print("Enter your new flight number: ");
+        newFlightNumber = scanner.nextLine();
+
+        // Get the departure date of the new flight from the user
+        System.out.print("Enter the departure date of your new flight (YYYY-MM-DD): ");
+        departureDate = scanner.nextLine();
+
+        // TODO: Add code to update the customer's flight information in the system
+        // This could involve querying a database or API to find the customer's current flight,
+        // updating the flight number and departure date, and saving the changes.
+
+        System.out.println("Your flight has been changed to " + newFlightNumber + " on " + departureDate);
+    }
+}
