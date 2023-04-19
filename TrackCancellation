@@ -1,0 +1,30 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class FlightTracker {
+    
+    private Map<String, Integer> cancellations;
+    
+    public FlightTracker() {
+        cancellations = new HashMap<>();
+    }
+    
+    public void addCancellation(String flightNumber) {
+        if (cancellations.containsKey(flightNumber)) {
+            int count = cancellations.get(flightNumber);
+            cancellations.put(flightNumber, count + 1);
+        } else {
+            cancellations.put(flightNumber, 1);
+        }
+    }
+    
+    public int getCancellationCount(String flightNumber) {
+        if (cancellations.containsKey(flightNumber)) {
+            return cancellations.get(flightNumber);
+        } else {
+            return 0;
+        }
+    }
+    
+    
+}
