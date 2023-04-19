@@ -1,3 +1,5 @@
+// Patrick Horton
+
 import java.util.Scanner;
 
 public class CancelFlight
