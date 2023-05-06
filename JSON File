@@ -1,0 +1,49 @@
+[
+	{
+		"flightNumber" 			: 1,
+		"airline" 				: "SouthWest",
+		"maxPassengers" 		: 100,
+		"currentPassengers" 	: 3,
+		"passengerNames"	 	: ["Alex Kevorkian", "Anthony Merzoian", "Josue Ambrosio"],
+		"confirmationNumbers" 	: [15234, 19472, 54421],
+		"numberOfCancellation" 	: 0,
+		"departDate" 			: "May 7, 2023",
+		"departTime" 			: "10:20 AM",
+		"departLocation"		: "Phoenix, Arizona",
+		"ArrivalLocation"		: "Boston, Massachusetts",
+		"ArrivalTime"			: "6:20 PM",
+		"Cost"					: "$300"
+	},
+
+	{
+		"flightNumber" 			: 2,
+		"airline" 				: "Spirit",
+		"maxPassengers" 		: 150,
+		"currentPassengers" 	: 2,
+		"passengerNames" 		: ["Leyla Clark", "Jordan Green"],
+		"confirmationNumbers" 	: [64326, 14356],
+		"numberOfCancellation" 	: 0,
+		"departDate" 			: "May 10, 2023",
+		"departTime" 			: "12:00 PM",
+		"departLocation"		: "Burbank, California",
+		"ArrivalLocation"		: "Las Vegas, Nevada",
+		"ArrivalTime"			: "2:00 PM",
+		"Cost"					: "$99"
+	},
+
+	{
+		"flightNumber"			: 3,
+		"airline"				: "Delta",
+		"maxPassengers"			: 150,
+		"currentPassengers"		: 2,
+		"passengerNames"		: ["Leyla Clark", "Jordan Green"],
+		"confirmationNumbers"	: [64326, 14356],
+		"numberOfCancellation"	: 0,
+		"departDate" 			: "May 7, 2023",
+		"departTime" 			: "9:00 AM",
+		"departLocation"		: "Seattle, Washington",
+		"ArrivalLocation"		: "Miami, Florida",
+		"ArrivalTime"			: "6:00 PM",
+		"Cost"					: "$450"
+	}
+]
