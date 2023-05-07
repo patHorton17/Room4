@@ -10,9 +10,9 @@
 		"departDate" 			: "May 7, 2023",
 		"departTime" 			: "10:20 AM",
 		"departLocation"		: "Phoenix, Arizona",
-		"ArrivalLocation"		: "Boston, Massachusetts",
-		"ArrivalTime"			: "6:20 PM",
-		"Cost"					: "$300"
+		"arrivalLocation"		: "Boston, Massachusetts",
+		"arrivalTime"			: "6:20 PM",
+		"cost"					: "$300"
 	},
 
 	{
@@ -26,9 +26,9 @@
 		"departDate" 			: "May 10, 2023",
 		"departTime" 			: "12:00 PM",
 		"departLocation"		: "Burbank, California",
-		"ArrivalLocation"		: "Las Vegas, Nevada",
-		"ArrivalTime"			: "2:00 PM",
-		"Cost"					: "$99"
+		"arrivalLocation"		: "Las Vegas, Nevada",
+		"arrivalTime"			: "2:00 PM",
+		"cost"					: "$99"
 	},
 
 	{
@@ -42,8 +42,8 @@
 		"departDate" 			: "May 7, 2023",
 		"departTime" 			: "9:00 AM",
 		"departLocation"		: "Seattle, Washington",
-		"ArrivalLocation"		: "Miami, Florida",
-		"ArrivalTime"			: "6:00 PM",
-		"Cost"					: "$450"
+		"arrivalLocation"		: "Miami, Florida",
+		"arrivalTime"			: "6:00 PM",
+		"cost"					: "$450"
 	}
 ]
